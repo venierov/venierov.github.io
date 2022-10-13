@@ -98,7 +98,7 @@ img {
 
 .section {
   padding-top: 3rem;
-  height: 100%;
+  min-height: 100%;
 }
 
 /*===== LAYOUT =====*/
@@ -438,9 +438,8 @@ img {
   font-weight: var(--font-semi);
   padding: 2rem 0;
   position:absolute;
-  bottom:-405%;
+  right: 0;
   width: 100%;
-  margin-right: 2remß;
 }
 
 
