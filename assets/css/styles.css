@@ -572,15 +572,13 @@ img {
     width: 300px;
   }
   .skills__container {
-    /* grid-template-columns: repeat(2, 1fr); */
-
-    grid-template-columns: 200px auto;
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     align-items: center;
     text-align: initial;
   }
   .work__container {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 200px auto;
     column-gap: 2rem;
   }
 }
